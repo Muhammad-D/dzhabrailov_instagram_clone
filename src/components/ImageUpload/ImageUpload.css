@@ -1,0 +1,18 @@
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+.image-upload__progress-bar {
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  .image-upload {
+    width: 99%;
+    font-size: 0.5rem;
+  }
+}
